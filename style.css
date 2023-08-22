@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+     
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+h4{
+    font-size: 20px;
+    color: black;
+}
+h6{
+    font-size: 12px;
+    font-weight: 700;
+
+}
+p{
+    font-size: 16px;
+    color: black;
+    margin: 15px 0 20px 0;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+}
+
+/* Header */
+
+#header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: rgb(159, 203, 63);
+    box-shadow: 0 5px 15px rgba(112, 59, 59, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+} 
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+#menu li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+    transition: 1s ease;
+}
+#menu {
+    font-style: italic;
+}
+#menu li a:hover,
+#menu li a.active {
+     color: magenta;
+}
+#menu li a.active::after,
+#menu li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: magenta;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/* Home Page */
+#libphoto {
+    width: 100%;
+    display: flex;
+    background-color: rgb(150, 203, 63);
+    align-items: end;
+
+}
+#libphoto .saying{
+    align-content: center;
+    padding: 130px 100px 250px 100px;
+    justify-content: center;
+   font-style: italic;
+    font-size: larger;
+    font-style: oblique;
+    
+}
+
+#container{
+    background-color: #1955aa;
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+#container h4{
+    justify-content: center;
+    align-content: center;
+    font-weight: 200;
+    padding-left: 270px;
+    padding-top: 10px;
+}
+#container .youtubevideo{
+    height: 400px;
+    width: 500px;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(bidbay-logo/newsletter.png);
+    background-repeat: repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: chocolate;     
+}
+#newsletter p span{
+    color: blue;
+}
+#newsletter input{
+    height: 3.125rem;
+    padding:0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+#newsletter button{
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+    align-items: center;
+    padding: 10px 10px;
+    outline: none;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+    
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .follow i:hover,
+footer a:hover{
+    color: #088178;
+}
+footer .copyright{
+    width: 100%;
+    align-items: center;
+    padding-top: 120px;
+    align-content: center;
+    padding-left: 500px;
+}
+
+/* Shop Page */
+
+
+/* single product */
+
+
+/* Blog Page */
+
+
+/* About Page */
+
+
+/* Login Page */
